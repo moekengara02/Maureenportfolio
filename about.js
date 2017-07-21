@@ -13,3 +13,18 @@ $("#guess_button").click( function() {
         $("p").html("You guessed it! It is" + fav_number);
     }
 });
+
+
+$("#submit").click( function() {
+  if (document.getElementById('B').checked)
+    {
+        alert("You've got it! Great Job!");
+    }
+    else
+    {
+       alert("Nope! Try again."); 
+    }
+    
+    
+  
+});
