@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: black;
+}
+body {
+    background-color: purple;
+}
+p {
+    font-family : verdana;
+    font-size :50px;
+}
+.circle{
+    margin: auto;
+    border-radius: 50%;
+    width: 40%;
+    height: 10%;
+    padding: 15px;
+    background : #ffffff;
+    text-align: center;
+    font: 14px;
+    
+}
