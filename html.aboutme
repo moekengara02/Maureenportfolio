@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+    <h1> Guess my favorite Number! </h1>
+    <input id="inputbox">
+    <button id="guess_button"> Guess! </button>
+    <p> </p>
+        
+    </body>
+</html>
