@@ -1,6 +1,6 @@
 $("#guess_button").click( function() {
     var input =$("#inputbox").val();
-    input = number(input);
+    input.setAttribute("type", "number");
     var fav_number= "2";
     
     if(input < fav_number){
