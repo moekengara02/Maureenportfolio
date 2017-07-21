@@ -23,8 +23,18 @@ $("#submit").click( function() {
     else
     {
        alert("Nope! Try again."); 
+    } 
+  
+});
+
+$("#submit2").click( function() {
+  if (document.getElementById('F').checked)
+    {
+        alert("You've got it! Great Job!");
     }
-    
-    
+    else
+    {
+       alert("Nope! Try again."); 
+    } 
   
 });
